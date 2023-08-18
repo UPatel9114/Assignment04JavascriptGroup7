@@ -1,0 +1,49 @@
+/*REference link to the api page : https://api.chucknorris.io/#! */
+
+/*
+1]Vilas Desai  -  200522471
+2]Udaykumar Patel  -  200522548	
+3]Bishnu Bohora  -  200519767
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#joke-container {
+    margin-top: 20px;
+    font-size: 18px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e8464c;
+}
+#share-button {
+    background-color: #28a745;
+    margin-top: 10px;
+}
+#share-button:hover {
+    background-color: #a7f757;
+}rgb(44, 30, 126)
